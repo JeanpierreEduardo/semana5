@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Ubicación | CineMax Perú</title>
+<link rel="stylesheet" href="style.css">
+<script src="https://kit.fontawesome.com/065ba884c8.js" crossorigin="anonymous"></script>
+</head>
+<body>
+
+  <header class="site-header">
+    <div class="contenedor barra">
+      <a href="index.html" class="logo">Cine<span>Max</span> Perú</a>
+
+      <input type="checkbox" id="menu-toggle" class="menu-toggle-input">
+      <label for="menu-toggle" class="menu-toggle-boton" aria-label="Abrir menú de navegación">
+        <span></span>
+        <span></span>
+        <span></span>
+      </label>
+
+      <nav class="nav-principal">
+        <ul>
+          <li><a href="index.html">Inicio</a></li>
+          <li><a href="cartelera.html">Cartelera</a></li>
+          <li><a href="como-funciona.html">Cómo funciona</a></li>
+          <li><a href="reservar.html">Reservar</a></li>
+          <li><a href="ubicacion.html" class="activo">Ubicación</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+
+    <section id="ubicacion" class="seccion">
+      <div class="contenedor grid-ubicacion">
+        <div>
+          <h2>Nuestras sedes en Lima</h2>
+          <ul class="lista-sedes">
+            <li>
+              <svg class="icono-pin" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2C7.6 2 4 5.6 4 10c0 6 8 12 8 12s8-6 8-12c0-4.4-3.6-8-8-8zm0 11a3 3 0 110-6 3 3 0 010 6z"></path></svg>
+              <div class="sede-info">
+                <strong>CineMax San Miguel</strong>
+                <span>Av. La Marina 2000, San Miguel</span>
+                <span>Todos los días · 11:00 am – 11:00 pm</span>
+              </div>
+            </li>
+            <li>
+              <svg class="icono-pin" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2C7.6 2 4 5.6 4 10c0 6 8 12 8 12s8-6 8-12c0-4.4-3.6-8-8-8zm0 11a3 3 0 110-6 3 3 0 010 6z"></path></svg>
+              <div class="sede-info">
+                <strong>CineMax Surco</strong>
+                <span>Av. Caminos del Inca 1250, Surco</span>
+                <span>Todos los días · 11:00 am – 11:00 pm</span>
+              </div>
+            </li>
+            <li>
+              <svg class="icono-pin" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2C7.6 2 4 5.6 4 10c0 6 8 12 8 12s8-6 8-12c0-4.4-3.6-8-8-8zm0 11a3 3 0 110-6 3 3 0 010 6z"></path></svg>
+              <div class="sede-info">
+                <strong>CineMax Lima Centro</strong>
+                <span>Jr. de la Unión 500, Cercado de Lima</span>
+                <span>Lunes a domingo · 10:00 am – 10:00 pm</span>
+              </div>
+            </li>
+          </ul>
+        </div>
+        <div class="contacto">
+          <h3>Atención al cliente</h3>
+          <p>¿Tienes dudas sobre una compra o función?</p>
+          <p><strong>Central telefónica:</strong> (01) 619-9200</p>
+          <p><strong>Correo:</strong> contacto@cinemaxperu.pe</p>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="site-footer">
+    <div class="contenedor">
+      <p>&copy; 2026 CineMax Perú. Todos los derechos reservados.</p>
+      <p class="footer-nota">LIMA HUAROC JEANPIERRE EDUARDO </p>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2/dist/umd/supabase.js"></script>
+  <script src="script.js" defer></script>
+</body>
+</html>

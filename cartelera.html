@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Cartelera | CineMax Perú</title>
+<link rel="stylesheet" href="style.css">
+<script src="https://kit.fontawesome.com/065ba884c8.js" crossorigin="anonymous"></script>
+</head>
+<body>
+
+  <header class="site-header">
+    <div class="contenedor barra">
+      <a href="index.html" class="logo">Cine<span>Max</span> Perú</a>
+
+      <input type="checkbox" id="menu-toggle" class="menu-toggle-input">
+      <label for="menu-toggle" class="menu-toggle-boton" aria-label="Abrir menú de navegación">
+        <span></span>
+        <span></span>
+        <span></span>
+      </label>
+
+      <nav class="nav-principal">
+        <ul>
+          <li><a href="index.html">Inicio</a></li>
+          <li><a href="cartelera.html" class="activo">Cartelera</a></li>
+          <li><a href="como-funciona.html">Cómo funciona</a></li>
+          <li><a href="reservar.html">Reservar</a></li>
+          <li><a href="ubicacion.html">Ubicación</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+
+    <section id="cartelera" class="seccion">
+      <div class="contenedor">
+        <h2>Cartelera de hoy</h2>
+        <p class="subtitulo">Marca tus favoritas, elige el formato y reserva tu función</p>
+
+        <div class="grid-peliculas">
+
+          <article class="tarjeta-pelicula">
+            <div class="poster poster-1 poster-destacado">
+              <input type="checkbox" id="fav-1" class="favorito-input">
+              <img src="imagen/im1.jpg" alt="Póster de El Origen del Silencio" class="poster-foto" width="250" height="230">
+              <div class="poster-overlay">
+                <i class="fa-solid fa-video"></i>
+                <span>Ver funciones</span>
+              </div>
+            </div>
+            <div class="info-pelicula">
+              <h3>El Origen del Silencio</h3>
+              <p class="meta">Suspenso · +14 · 118 min</p>
+
+              <div class="chips-formato" role="group" aria-label="Formato de proyección">
+                <input type="radio" name="formato1" id="formato1-2d" class="chip-input" checked>
+                <label for="formato1-2d" class="chip">2D</label>
+                <input type="radio" name="formato1" id="formato1-3d" class="chip-input">
+                <label for="formato1-3d" class="chip">3D</label>
+              </div>
+
+              <p class="funciones">
+                <span>Sala 1</span> · 3:30 pm · 6:15 pm · 9:00 pm
+              </p>
+              <a href="reservar.html" class="boton boton-secundario">Elegir horario</a>
+            </div>
+          </article>
+
+          <article class="tarjeta-pelicula">
+            <div class="poster poster-2">
+              <input type="checkbox" id="fav-2" class="favorito-input">
+              <img src="imagen/im2.jpg" alt="Póster de Ruta 65" class="poster-foto" width="250" height="230">
+              <div class="poster-overlay">
+                <i class="fa-solid fa-video"></i>
+                <span>Ver funciones</span>
+              </div>
+            </div>
+            <div class="info-pelicula">
+              <h3>Ruta 65</h3>
+              <p class="meta">Acción · +14 · 132 min</p>
+
+              <div class="chips-formato" role="group" aria-label="Formato de proyección">
+                <input type="radio" name="formato2" id="formato2-2d" class="chip-input" checked>
+                <label for="formato2-2d" class="chip">2D</label>
+                <input type="radio" name="formato2" id="formato2-3d" class="chip-input">
+                <label for="formato2-3d" class="chip">3D</label>
+              </div>
+
+              <p class="funciones">
+                <span>Sala 2</span> · 4:00 pm · 7:00 pm · 9:45 pm
+              </p>
+              <a href="reservar.html" class="boton boton-secundario">Elegir horario</a>
+            </div>
+          </article>
+
+          <article class="tarjeta-pelicula">
+            <div class="poster poster-3">
+              <input type="checkbox" id="fav-3" class="favorito-input">
+              <img src="imagen/im3.jpg" alt="Póster de Mundo de Cartón" class="poster-foto" width="250" height="230">
+              <div class="poster-overlay">
+                <i class="fa-solid fa-video"></i>
+                <span>Ver funciones</span>
+              </div>
+            </div>
+            <div class="info-pelicula">
+              <h3>Mundo de Cartón</h3>
+              <p class="meta">Animación · Todo público · 95 min</p>
+
+              <div class="chips-formato" role="group" aria-label="Formato de proyección">
+                <input type="radio" name="formato3" id="formato3-2d" class="chip-input" checked>
+                <label for="formato3-2d" class="chip">2D</label>
+                <input type="radio" name="formato3" id="formato3-3d" class="chip-input">
+                <label for="formato3-3d" class="chip">3D</label>
+              </div>
+
+              <p class="funciones">
+                <span>Sala 3</span> · 1:00 pm · 3:15 pm · 5:30 pm
+              </p>
+              <a href="reservar.html" class="boton boton-secundario">Elegir horario</a>
+            </div>
+          </article>
+
+          <article class="tarjeta-pelicula">
+            <div class="poster poster-4">
+              <input type="checkbox" id="fav-4" class="favorito-input">
+              <img src="imagen/im4.jpg" alt="Póster de Bajo la Misma Luna" class="poster-foto" width="250" height="230">
+              <div class="poster-overlay">
+                <i class="fa-solid fa-video"></i>
+                <span>Ver funciones</span>
+              </div>
+            </div>
+            <div class="info-pelicula">
+              <h3>Bajo la Misma Luna</h3>
+              <p class="meta">Drama · +14 · 110 min</p>
+
+              <div class="chips-formato" role="group" aria-label="Formato de proyección">
+                <input type="radio" name="formato4" id="formato4-2d" class="chip-input" checked>
+                <label for="formato4-2d" class="chip">2D</label>
+                <input type="radio" name="formato4" id="formato4-3d" class="chip-input">
+                <label for="formato4-3d" class="chip">3D</label>
+              </div>
+
+              <p class="funciones">
+                <span>Sala 4</span> · 5:00 pm · 8:00 pm
+              </p>
+              <a href="reservar.html" class="boton boton-secundario">Elegir horario</a>
+            </div>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="site-footer">
+    <div class="contenedor">
+      <p>&copy; 2026 CineMax Perú. Todos los derechos reservados.</p>
+      <p class="footer-nota">LIMA HUAROC JEANPIERRE EDUARDO </p>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2/dist/umd/supabase.js"></script>
+  <script src="script.js" defer></script>
+</body>
+</html>

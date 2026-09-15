@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>CineMax Perú | Cartelera y entradas en línea</title>
+<link rel="stylesheet" href="style.css">
+<script src="https://kit.fontawesome.com/065ba884c8.js" crossorigin="anonymous"></script>
+</head>
+<body>
+
+  <header class="site-header">
+    <div class="contenedor barra">
+      <a href="index.html" class="logo">Cine<span>Max</span> Perú</a>
+
+      <input type="checkbox" id="menu-toggle" class="menu-toggle-input">
+      <label for="menu-toggle" class="menu-toggle-boton" aria-label="Abrir menú de navegación">
+        <span></span>
+        <span></span>
+        <span></span>
+      </label>
+
+      <nav class="nav-principal">
+        <ul>
+          <li><a href="index.html" class="activo">Inicio</a></li>
+          <li><a href="cartelera.html">Cartelera</a></li>
+          <li><a href="como-funciona.html">Cómo funciona</a></li>
+          <li><a href="reservar.html">Reservar</a></li>
+          <li><a href="ubicacion.html">Ubicación</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+
+    <section id="inicio" class="hero">
+      <svg class="hero-icono" viewBox="0 0 120 120" aria-hidden="true">
+        <g>
+          <rect x="15" y="40" width="80" height="55" rx="4" class="reel-hueco"></rect>
+          <rect x="15" y="18" width="80" height="18" rx="3" class="reel-aro claqueta-tapa"></rect>
+          <path d="M15 18 L35 36 M40 18 L60 36 M65 18 L85 36" class="reel-aro claqueta-tapa"></path>
+        </g>
+        <g class="palomitas">
+          <circle cx="35" cy="105" r="4"></circle>
+          <circle cx="50" cy="110" r="4"></circle>
+          <circle cx="65" cy="103" r="4"></circle>
+        </g>
+      </svg>
+
+      <div class="contenedor hero-contenido">
+        <p class="etiqueta-sala">Sala 4 · Estreno de la semana</p>
+        <h1>Vive la película más grande en la pantalla más grande</h1>
+        <p class="hero-texto">
+          Compra tus entradas en minutos, elige tu asiento y disfruta el estreno
+          en cualquiera de nuestras salas en Lima.
+        </p>
+        <a href="cartelera.html" class="boton boton-primario">Ver cartelera</a>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="site-footer">
+    <div class="contenedor">
+      <p>&copy; 2026 CineMax Perú. Todos los derechos reservados.</p>
+      <p class="footer-nota">LIMA HUAROC JEANPIERRE EDUARDO </p>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2/dist/umd/supabase.js"></script>
+  <script src="script.js" defer></script>
+</body>
+</html>
