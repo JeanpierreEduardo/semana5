@@ -58,7 +58,144 @@
         <a href="cartelera.html" class="boton boton-primario">Ver cartelera</a>
       </div>
     </section>
+  <section id="inicio" class="hero">
+      <svg class="hero-icono" viewBox="0 0 120 120" aria-hidden="true">
+        <g>
+          <rect x="15" y="40" width="80" height="55" rx="4" class="reel-hueco"></rect>
+          <rect x="15" y="18" width="80" height="18" rx="3" class="reel-aro claqueta-tapa"></rect>
+          <path d="M15 18 L35 36 M40 18 L60 36 M65 18 L85 36" class="reel-aro claqueta-tapa"></path>
+        </g>
+        <g class="palomitas">
+          <circle cx="35" cy="105" r="4"></circle>
+          <circle cx="50" cy="110" r="4"></circle>
+          <circle cx="65" cy="103" r="4"></circle>
+        </g>
+      </svg>
 
+      <div class="contenedor hero-contenido">
+        <p class="etiqueta-sala">Sala 4 · Estreno de la semana</p>
+        <h1>Vive la película más grande en la pantalla más grande</h1>
+        <p class="hero-texto">
+          Compra tus entradas en minutos, elige tu asiento y disfruta el estreno
+          en cualquiera de nuestras salas en Lima.
+        </p>
+        <a href="cartelera.html" class="boton boton-primario">Ver cartelera</a>
+      </div>
+    </section>
+    <section id="cartelera" class="seccion">
+      <div class="contenedor">
+        <h2>PRÓXIMOS ESTRENOS</h2>
+        <p class="subtitulo">LISTA DE HORARIOS Y FECHAS DISPONIBLES A PARTIR DE LA PROXIMA SEMANA</p>
+
+        <div class="grid-peliculas">
+
+          <article class="tarjeta-pelicula">
+            <div class="poster poster-1 poster-destacado">
+              <input type="checkbox" id="fav-1" class="favorito-input">
+              <img src="imagen/im5.jpg" alt="Póster de El Origen del Silencio" class="poster-foto" width="250" height="230">
+              <div class="poster-overlay">
+                <i class="fa-solid fa-video"></i>
+                <span>Ver funciones</span>
+              </div>
+            </div>
+            <div class="info-pelicula">
+              <h3>A travéz de mi ventana</h3>
+              <p class="meta">Suspenso · +14 · 118 min</p>
+
+              <div class="chips-formato" role="group" aria-label="Formato de proyección">
+                <input type="radio" name="formato1" id="formato1-2d" class="chip-input" checked>
+                <label for="formato1-2d" class="chip">2D</label>
+                <input type="radio" name="formato1" id="formato1-3d" class="chip-input">
+                <label for="formato1-3d" class="chip">3D</label>
+              </div>
+
+              <p class="funciones">
+                <span>Sala 1</span> · 3:30 pm · 6:15 pm · 9:00 pm
+              </p>
+              <a href="reservar.html" class="boton boton-secundario">Elegir horario</a>
+            </div>
+          </article>
+
+          <article class="tarjeta-pelicula">
+            <div class="poster poster-2">
+              <input type="checkbox" id="fav-2" class="favorito-input">
+              <img src="imagen/im6.jpg" alt="Póster de Ruta 65" class="poster-foto" width="250" height="230">
+              <div class="poster-overlay">
+                <i class="fa-solid fa-video"></i>
+                <span>Ver funciones</span>
+              </div>
+            </div>
+            <div class="info-pelicula">
+              <h3>A 2 caras</h3>
+              <p class="meta">Suspenso · +14 · 132 min</p>
+
+              <div class="chips-formato" role="group" aria-label="Formato de proyección">
+                <input type="radio" name="formato2" id="formato2-2d" class="chip-input" checked>
+                <label for="formato2-2d" class="chip">2D</label>
+                <input type="radio" name="formato2" id="formato2-3d" class="chip-input">
+                <label for="formato2-3d" class="chip">3D</label>
+              </div>
+
+              <p class="funciones">
+                <span>Sala 2</span> · 4:00 pm · 7:00 pm · 9:45 pm
+              </p>
+              <a href="reservar.html" class="boton boton-secundario">Elegir horario</a>
+            </div>
+          </article>
+
+          <article class="tarjeta-pelicula">
+            <div class="poster poster-3">
+              <input type="checkbox" id="fav-3" class="favorito-input">
+              <img src="imagen/im7.jpg" alt="Póster de Mundo de Cartón" class="poster-foto" width="250" height="230">
+              <div class="poster-overlay">
+                <i class="fa-solid fa-video"></i>
+                <span>Ver funciones</span>
+              </div>
+            </div>
+            <div class="info-pelicula">
+              <h3>Wish</h3>
+              <p class="meta">Animación · Todo público · 95 min</p>
+
+              <div class="chips-formato" role="group" aria-label="Formato de proyección">
+                <input type="radio" name="formato3" id="formato3-2d" class="chip-input" checked>
+                <label for="formato3-2d" class="chip">2D</label>
+                <input type="radio" name="formato3" id="formato3-3d" class="chip-input">
+                <label for="formato3-3d" class="chip">3D</label>
+              </div>
+
+              <p class="funciones">
+                <span>Sala 3</span> · 1:00 pm · 3:15 pm · 5:30 pm
+              </p>
+              <a href="reservar.html" class="boton boton-secundario">Elegir horario</a>
+            </div>
+          </article>
+
+          <article class="tarjeta-pelicula">
+            <div class="poster poster-4">
+              <input type="checkbox" id="fav-4" class="favorito-input">
+              <img src="imagen/im8.jpg" alt="Póster de Bajo la Misma Luna" class="poster-foto" width="250" height="230">
+              <div class="poster-overlay">
+                <i class="fa-solid fa-video"></i>
+                <span>Ver funciones</span>
+              </div>
+            </div>
+            <div class="info-pelicula">
+              <h3>No respires</h3>
+              <p class="meta">Terror · +18 · 110 min</p>
+
+              <div class="chips-formato" role="group" aria-label="Formato de proyección">
+                <input type="radio" name="formato4" id="formato4-2d" class="chip-input" checked>
+                <label for="formato4-2d" class="chip">2D</label>
+                <input type="radio" name="formato4" id="formato4-3d" class="chip-input">
+                <label for="formato4-3d" class="chip">3D</label>
+              </div>
+
+              <p class="funciones">
+                <span>Sala 4</span> · 5:00 pm · 8:00 pm
+              </p>
+              <a href="reservar.html" class="boton boton-secundario">Elegir horario</a>
+            </div>
+          </article>
   </main>
 
   <footer class="site-footer">
